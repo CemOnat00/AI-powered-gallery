@@ -7,3 +7,11 @@ build/
 local.properties
 *.apk
 *.aab
+
+# Yerel proje yönetimi dosyaları (GitHub dışı, diskte kalır)
+CLAUDE.md
+architecture.md
+todo.md
+claude_subagent.md
+Proje_Mobil_26.md
+Proje_Mobil_26.pdf
