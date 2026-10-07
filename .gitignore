@@ -1,17 +1,30 @@
-.claude
+# --- GitHub'a yalnızca mobile/ ve reports/ gider ---
+# Yerel proje yönetimi ve ajan dosyaları (diskte kalır, git'e girmez)
+/.claude/
+/CLAUDE.md
+/architecture.md
+/todo.md
+/claude_subagent.md
+/Proje_Mobil_26.*
+
+# IDE ve sistem
 .DS_Store
 *.iml
 .idea/
+
+# Gradle / Android derleme çıktıları
 .gradle/
 build/
 local.properties
 *.apk
 *.aab
+.kotlin/
 
-# Yerel proje yönetimi dosyaları (GitHub dışı, diskte kalır)
-CLAUDE.md
-architecture.md
-todo.md
-claude_subagent.md
-Proje_Mobil_26.md
-Proje_Mobil_26.pdf
+# Güvenlik: anahtar, parola, ortam dosyaları ve model ağırlıkları asla commit'lenmez
+*.jks
+*.keystore
+.env
+.env.*
+*.onnx
+*.safetensors
+*.log
